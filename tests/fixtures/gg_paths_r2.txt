@@ -1,0 +1,4 @@
+# second rescan — overlapping stable chains
+libil2cpp.so+0xA1B2C0 → 0x18 → 0xA0
+libil2cpp.so+0xDEAD00 → 0x8 → 0x10
+libunity.so+0x55AA00 → 0x20

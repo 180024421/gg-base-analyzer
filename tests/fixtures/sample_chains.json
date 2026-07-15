@@ -1,0 +1,16 @@
+{
+  "kind": "pointer_paths",
+  "package": "com.example.game",
+  "paths": [
+    {
+      "module": "libil2cpp.so",
+      "module_offset": "0xA1B2C0",
+      "offsets": ["0x18", "0xA0"],
+      "field_name": "gold",
+      "value_type": "int32"
+    }
+  ],
+  "addresses": [
+    {"address": "0x7E33D6FC", "note": "gold"}
+  ]
+}

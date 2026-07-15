@@ -1,0 +1,3 @@
+# 核心无额外依赖。开发 / 在线可选:
+# pip install -e ".[dev]"
+# pip install -e ".[online]"
