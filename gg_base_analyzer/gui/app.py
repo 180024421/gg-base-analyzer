@@ -108,10 +108,8 @@ class App(tk.Tk):
         self.file_list.pack(fill=tk.BOTH, expand=True, pady=(10, 0))
 
     def _build_online(self) -> None:
-        tip = (
-            "在 GG 确认「改了界面会动」后，把地址填到这里。"
-            f" Frida：{'已安装' if frida_available() else '未安装（pip install -e \".[online]\"）'}"
-        )
+        frida_tip = "已安装" if frida_available() else '未安装（pip install -e ".[online]"）'
+        tip = f"在 GG 确认「改了界面会动」后，把地址填到这里。 Frida：{frida_tip}"
         ttk.Label(self.tab_online, text=tip, style="Hint.TLabel").pack(anchor=tk.W)
 
         form = ttk.LabelFrame(self.tab_online, text="在线搜链", padding=12)
